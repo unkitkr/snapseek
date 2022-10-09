@@ -1,0 +1,19 @@
+{
+  "name": "snapseek",
+  "version": "0.0.1",
+  "description": "Image generation API",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib && tsc",
+    "start": "npm run build && node lib/"
+  },
+  "author": "ankit kumar",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^15.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24"
+  }
+}

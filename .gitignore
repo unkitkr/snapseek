@@ -1,0 +1,5 @@
+worker/node_modules
+worker/lib
+*.png
+*.jpg
+.DS_Store
